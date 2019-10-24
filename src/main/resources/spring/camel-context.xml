@@ -14,5 +14,9 @@
             </setBody>
         </route>
     </camelContext>
-    <cxf:cxfEndpoint id="simpleServiceEndpoint" address="/simpleService" wsdlURL="classpath:wsdl/simpleService.wsdl" />
+    <cxf:cxfEndpoint id="simpleServiceEndpoint" address="/simpleService" wsdlURL="classpath:wsdl/simpleService.wsdl" >
+        <cxf:properties>
+            <entry key="schema-validation-enabled" value="true" />
+        </cxf:properties>
+    </cxf:cxfEndpoint>
 </beans>
