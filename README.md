@@ -1,6 +1,7 @@
 # camel-webservice-mock
 
 Simple example to show how to mock a SOAP webservice with static/random responses with camel.
+http://nullendpoint.com/java/openshift/2018/04/17/creating-simple-soap-web-service-mocks-with-camel/
 
 This project was initially constructed using the camel-springboot-archetype, it is Openshift ready :)
 
